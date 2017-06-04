@@ -1,0 +1,125 @@
+body{
+  background-color: radial-gradient(#fff176, #f57f17);
+  font-family: Roboto;
+}
+
+.page-header{
+  margin-bottom: 0;
+  border-bottom: 0;
+  letter-spacing: 1px;
+}
+
+h1.page-header{
+  font-size: 100px;
+  letter-spacing: 10px;
+}
+
+.navbar-header, .navbar, .navbar-default{
+  margin-top: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  background: #ffffff;
+  border-color: #000000;
+}
+
+#searchForm, #searchForm2{
+  margin: 20px auto auto auto;
+  width: 55%;
+  background: #b3ebfc;
+  /*background: radial-gradient(#ffffff, #b3ebfc);*/
+  /*background: radial-gradient(#fff176, #f57f17);*/
+  border-radius: 30px;
+  border-width: thin;
+  border-color: #000000;
+  /*box-shadow: 10px 35px 20px -30px rgba(0,0,0,0.3)*/
+}
+
+#contentArea{
+  /*background-color: pink;*/
+  width: 100%;
+}
+
+#searchButton, #searchButton2, #randomButton, #clearButton{
+  background-color: rgb(250, 204, 136);
+  border-width: thin;
+  border-color: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#searchBar, #searchBar2{
+  border-width: thin;
+  border-color: inherit;
+  width: auto;
+}
+
+#searchBar2{
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+#searchButton2, #randomButton, #clearButton{
+  margin-top: 10px;
+}
+
+#searchButton2:hover, #randomButton:hover, #clearButton:hover{
+  /*background-color: rgb(245, 144, 27);*/
+  box-shadow: 0 5px 5px 2px rgba(0,0,0,0.3);
+  transform: translate(0, -2px);
+}
+
+#searchBar2:focus{
+  outline: none;
+  border-color: rgb(245, 144, 27);
+}
+
+#credit{
+  /*background-color: pink;*/
+  line-height: 0.5em;
+  margin-top: 15px;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.article{
+  height: auto;
+  width: 75%;
+  margin: 20px auto auto auto;
+  /*background-color: pink;*/
+  border: solid 1px #000000;
+  border-radius: 15px;
+  text-align: center;
+  padding-bottom: 3px;
+  padding-top: 8px;
+}
+
+.article:hover{
+  border-left-color: rgb(245,144,27);
+  border-left-width: thick;
+  border-right-color: #b3ebfc;
+  border-right-width: thick;
+  box-shadow: 0 5px 5px 2px rgba(0,0,0,0.3);
+}
+
+.title{
+  font-size: 20px;
+  padding-top: 0;
+  margin-bottom: -10px;
+}
+
+.randomLink{
+  margin-top: -10px;
+  font-size: 15px;
+}
+
+.searchLink{
+  padding-bottom: 50px;
+  margin-top: -10px;
+}
+
+.loader{
+  text-align: center;
+}
