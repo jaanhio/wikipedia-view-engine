@@ -53,7 +53,7 @@ $.ajax({
     });
   },
   error: function(){
-    console.log("unable to retrieve data");
+    console.log("unable to retrieve datas");
   }
 });
 }
