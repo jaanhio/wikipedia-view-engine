@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 //button that generates random wiki page content
 $('#randomButton').on('click', function(e){
-
+  //$(this).animate({translate(10)},500);
   getRandomArticle();
 
 });
